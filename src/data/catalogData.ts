@@ -6,7 +6,7 @@ export const categories: Category[] = [
     id: 'seating',
     name: 'Assises',
     description: 'Collection exclusive de sièges d\'exception pour créer des espaces de réception raffinés',
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1708955569210-c2676aec3099?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     subcategories: [
       {
         id: 'sofas',
@@ -42,7 +42,7 @@ export const categories: Category[] = [
     id: 'tables',
     name: 'Tables',
     description: 'Tables d\'exception en marbre, bois précieux et matériaux nobles',
-    image: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=1000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1569936355132-03087ba565eb?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     subcategories: [
       {
         id: 'dining-tables',
@@ -71,7 +71,7 @@ export const categories: Category[] = [
     id: 'lighting',
     name: 'Éclairage',
     description: 'Luminaires de prestige pour sublimer vos événements',
-    image: 'https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?q=80&w=1000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1714764128314-1b33d2892c24?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     subcategories: [
       {
         id: 'chandeliers',
@@ -100,7 +100,7 @@ export const categories: Category[] = [
     id: 'decor',
     name: 'Décoration',
     description: 'Objets d\'art et accessoires décoratifs de prestige',
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?q=80&w=1000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1727907298445-7bb66f98d40a?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     subcategories: [
       {
         id: 'vases',
@@ -120,7 +120,7 @@ export const categories: Category[] = [
         id: 'mirrors',
         name: 'Miroirs',
         description: 'Miroirs décoratifs et artistiques',
-        image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?q=80&w=1000&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1727907298445-7bb66f98d40a?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         categoryId: 'decor'
       }
     ]
