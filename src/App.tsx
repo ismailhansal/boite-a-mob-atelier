@@ -8,6 +8,9 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Catalog from "./pages/Catalog";
+import CategoryPage from "./pages/CategoryPage";
+import ProductList from "./pages/ProductList";
+import ProductDetail from "./pages/ProductDetail";
 import Services from "./pages/Services";
 import Gallery from "./pages/Gallery";
 import Admin from "./pages/Admin";
@@ -26,6 +29,9 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/catalog" element={<Catalog />} />
+          <Route path="/catalog/:categoryId" element={<CategoryPage />} />
+          <Route path="/catalog/:categoryId/:subcategoryId" element={<ProductList />} />
+          <Route path="/catalog/product/:productId" element={<ProductDetail />} />
           <Route path="/services" element={<Services />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/admin" element={<Admin />} />

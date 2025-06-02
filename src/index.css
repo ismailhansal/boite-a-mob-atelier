@@ -119,6 +119,13 @@
     opacity: 0;
     transform: translateY(30px);
   }
+  
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
 }
 
 @keyframes entrance-fade {
@@ -144,4 +151,17 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(var(--primary));
+}
+
+/* Luxury button refinements */
+.btn-luxury {
+  @apply bg-transparent border border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground;
+  @apply transition-all duration-500 ease-out;
+  @apply tracking-wider font-medium text-sm;
+  @apply shadow-none hover:shadow-lg hover:shadow-primary/20;
+  letter-spacing: 0.5px;
+}
+
+.btn-luxury:hover {
+  transform: translateY(-1px);
 }
