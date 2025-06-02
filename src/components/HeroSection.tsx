@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1721322800607-8c38375eef04?q=80&w=3011&auto=format&fit=crop')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('https://plus.unsplash.com/premium_photo-1661774784582-6bda780600bf?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
         }}
       />
       
@@ -39,7 +39,7 @@ const HeroSection = () => {
             asChild
             variant="outline"
             size="lg"
-            className="border-white text-white hover:bg-white hover:text-primary transition-all duration-300 px-8 py-3 text-lg font-medium"
+            className="border-white text-white hover:bg-white text-emerald-950 transition-all duration-300 px-8 py-3 text-lg font-medium"
           >
             <Link to="/contact">Demander un devis</Link>
           </Button>

@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -47,10 +46,10 @@ const FeaturedCategories = () => {
             <Link 
               key={category.name} 
               to={category.link}
-              className="group entrance-fade"
+              className="group entrance-fade h-full"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <Card className="overflow-hidden border-none shadow-lg hover:shadow-xl transition-all duration-500 group-hover:scale-105">
+              <Card className="h-full flex flex-col overflow-hidden border-none shadow-lg hover:shadow-xl transition-all duration-500 group-hover:scale-105">
                 <div className="aspect-[4/5] overflow-hidden">
                   <img
                     src={category.image}
@@ -58,11 +57,11 @@ const FeaturedCategories = () => {
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
                 </div>
-                <CardContent className="p-6">
+                <CardContent className="p-6 flex-1 flex flex-col">
                   <h3 className="font-display text-xl font-semibold text-primary mb-2">
                     {category.name}
                   </h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                  <p className="text-muted-foreground text-sm leading-relaxed line-clamp-2">
                     {category.description}
                   </p>
                 </CardContent>
