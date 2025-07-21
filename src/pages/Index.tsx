@@ -73,6 +73,12 @@ const Index = () => {
     <button className="px-10 py-4 rounded-full bg-neutral-900 text-white text-sm font-medium hover:bg-neutral-800 transition-all duration-200">
       <a href="/about">Découvrir notre histoire</a>
     </button>
+
+    <button>
+      <a href="/yourcollection">Savoir Plus</a>
+    </button>
+
+    <a href="d"></a>
   </div>
 </section>
 

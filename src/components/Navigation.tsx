@@ -21,11 +21,12 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <Link to="/" className="font-display text-2xl font-semibold text-primary">
-            Boite à Mob
-          </Link>
-
+           <img 
+          src="/logo_boite.png" // mets ici le chemin de ton logo
+          alt="Boite à Mob Logo"
+          className="h-14 w-36 object-contain" // ajuste la taille comme tu veux
+        />
+       
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
